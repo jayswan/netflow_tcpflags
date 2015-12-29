@@ -13,12 +13,11 @@ The accompanying Python script translates between those decimal values and their
   - https://www.ietf.org/rfc/rfc3954.txt (see section 8)
 
 
- [RFC 3540](https://tools.ietf.org/html/rfc3540) defines an experimental ninth TCP flag, `NS`, for ECN-nonce
- concealment protection.
- It appears to be rarely if ever used, so I default to excluding it.
- However, the IANA IPFIX entities list standard explicitly lists it, so I include an option for it. I don't include any option to decode reserved bits.
+[RFC 3540](https://tools.ietf.org/html/rfc3540) defines an experimental ninth TCP flag, `NS`, for ECN-nonce
+concealment protection. It appears to be rarely if ever used, so I default to excluding it.
+However, the IANA IPFIX entities list standard explicitly lists it, so I include an option for it. I don't include any option to decode reserved bits.
 
- Reference: http://www.iana.org/assignments/ipfix/ipfix.xhtml
+Reference: http://www.iana.org/assignments/ipfix/ipfix.xhtml
 
 ### The Whole List
 ```

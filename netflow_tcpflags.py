@@ -48,8 +48,6 @@ def print_flags(tcpflags=standard_flags):
         print k, ' '.join(v)
 
 def main():
-
-
     parser = argparse.ArgumentParser(description = "NetFlow TCP Flags")
     parser.add_argument('--rfc3540', action = 'store_true',\
                         help='include RFC3540 NS bit options')

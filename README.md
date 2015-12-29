@@ -278,5 +278,4 @@ The accompanying Python script translates between those decimal values and their
 253 CWR ECE URG ACK PSH RST FIN
 254 CWR ECE URG ACK PSH RST SYN
 255 CWR ECE URG ACK PSH RST SYN FIN
-256 CWR
 ```

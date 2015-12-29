@@ -5,6 +5,8 @@ The accompanying Python script translates between those decimal values and their
 ```
     19 = ACK SYN FIN
 ```
+Obviously, many of these combinations are invalid in normal TCP connections, but any of them could be seen given some creativity with a port scanner or packet generator.
+
 
 ### References:
 - NetFlow v5:

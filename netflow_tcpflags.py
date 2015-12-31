@@ -22,7 +22,7 @@ References:
  Reference: http://www.iana.org/assignments/ipfix/ipfix.xhtml
 """
 rfc_3540_flags = ['NS', 'CWR', 'ECE', 'URG', 'ACK', 'PSH', 'RST', 'SYN', 'FIN']
-# short versions:
+# short versions of flag names:
 #rfc_3540_flags = ['N', 'C', 'E', 'U', 'A', 'P', 'R', 'S', 'F']
 standard_flags = rfc_3540_flags[1:]
 
